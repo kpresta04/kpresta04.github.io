@@ -58,6 +58,11 @@ body{
     
     
   }
+
+.tablinks:hover{
+    background-color: darkgray;
+    color: white;
+}
 #linkBox{
     padding-left: 400px;
 }
