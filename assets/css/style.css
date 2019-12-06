@@ -164,6 +164,9 @@ h1{
     font-size: 2em;
     font-weight: bold;
 }
+h3{
+    color: #4aaaa5;
+}
 p{
     color:#777777;
     display: block;
