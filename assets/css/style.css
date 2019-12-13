@@ -1,63 +1,65 @@
-html,
-body {
-  height: 100%;
-  overflow-x: hidden;
+html,body{
+    height: 100%;
+    overflow-x: hidden;
 }
-body {
-  width: 100%;
-  /* height: 100%;  */
-  /* display: flex;
+body{
+     width: 100%;
+    /* height: 100%;  */
+    /* display: flex;
     flex-direction: column; */
-  /* min-height: 70%; */
-  display: flex;
-  flex-direction: column;
-  top: 150px;
-  bottom: 20px;
-  overflow-x: hidden;
-  margin: 0px;
+    /* min-height: 70%; */
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    bottom: 20px;
+    overflow-x: hidden;
+    margin: 0px;
 }
 
-#aboutLink {
-  position: absolute;
-  left: 1020px;
+#aboutLink{
+    position: absolute;
+    left: 1020px;
 }
 
-#contactLink {
-  position: absolute;
-  left: 1180px;
+#contactLink
+{
+    position: absolute;
+    left: 1180px;
 }
 
-#portLink {
-  position: absolute;
-  left: 1095px;
+#portLink
+{
+    position: absolute;
+    left: 1095px;
 }
 
 /* Style the tab */
 .tablinks {
-  overflow: hidden;
+    overflow: hidden;
+    
+    
+    text-align: center;
+    /* float: right; */
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 100px;
+    color:#777777;
+    font-size: 10pt;
+    /* float: right; */
+    
+    /* padding-right: 4%; */
+    display: flex;
+    justify-content: flex-end;
+   
 
-  text-align: center;
-  /* float: right; */
-  cursor: pointer;
-  vertical-align: middle;
-  margin-left: 11px;
-  margin-right: 11px;
-  margin-top: 100px;
-  color: #777777;
-  font-size: 12pt;
-  /* float: right; */
-
-  /* padding-right: 4%; */
-  display: flex;
-  justify-content: flex-end;
-}
-
-.tablinks:hover {
-  background-color: darkgray;
-  color: white;
-}
-#linkBox {
-  padding-left: 400px;
+    
+    
+    
+  }
+#linkBox{
+    padding-left: 400px;
 }
 /* .tablinks#defaultOpen
 {
@@ -68,9 +70,9 @@ body {
     position: absolute;
     right: 1;
 } */
-
-/* Style the buttons that are used to open the tab content */
-/* .tablinks button {
+  
+  /* Style the buttons that are used to open the tab content */
+  /* .tablinks button {
     background-color: inherit;
     float: left;
     border: none;
@@ -86,140 +88,137 @@ body {
     left: auto;
     
 } */
-
-/* Change background color of buttons on hover */
-/* .tablinks button:hover {
+  
+  /* Change background color of buttons on hover */
+  /* .tablinks button:hover {
     background-color: #ddd;
   } */
-
-/* Create an active/current tablink class */
-/* .tablinks button.active {
+  
+  /* Create an active/current tablink class */
+  /* .tablinks button.active {
     background-color: #ccc; */
-/* } */
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  /* border: 1px solid #ccc; */
-  border-top: none;
-  background-color: white;
-  width: 960px;
-  margin-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 17%;
-  margin-top: 20px;
-  flex: 1;
-  overflow: hidden;
-  margin-bottom: 60px;
-  /* height: 100%; */
-  /* flex: 1 0 auto; */
-}
-
-.footer {
-  /* flex-shrink: 0;
+  /* } */
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    background-color: white;
+    width: 960px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 17%;
+    margin-top: 20px;
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 60px;
+    /* height: 100%; */
+    /* flex: 1 0 auto; */
+    
+    
+  }
+ 
+.footer{
+    /* flex-shrink: 0;
      */
-  grid-row-start: 4;
-  grid-row-end: 5;
-  border-top: 8px solid #4aaaa5;
-  text-align: center;
-  color: white;
-  background-color: #666666;
-  margin-top: 1px;
-  width: 105%;
-  overflow: hidden;
-  height: 30px;
-  font-size: 8pt;
-  vertical-align: middle;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    margin-top: 1px;
+    width: 105%;
+    overflow: hidden;
+    height: 30px;
+    font-size: 8pt;
+    vertical-align: middle;
+    
+    
+    
 }
-h2 {
-  color: #4aaaa5;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-  background-color: #4aaaa5;
-  color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  display: inline-block;
-  font-size: 2em;
-  font-weight: bold;
+h1{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block
 }
-h3 {
-  color: #4aaaa5;
+p{
+    color:#777777
+
 }
-p {
-  color: #777777;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-#mainPage {
-  background-image: url("../images/blue-snow.png");
-  /* width: 960px; */
-  /* margin-left: 10%;
+#mainPage{
+    background-image: url("../images/blue-snow.png");
+    /* width: 960px; */
+    /* margin-left: 10%;
     margin-right: 10%; */
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    
 }
-#nameHeader {
-  /* margin: 10px; */
-  margin-bottom: 0%;
-  width: 300px;
-  height: 100px;
-  text-align: center;
-  margin-left: 19.3%;
-  vertical-align: middle;
-  line-height: 110px;
-  margin-top: 50px;
+#nameHeader{
+    /* margin: 10px; */
+    margin-bottom: 0%;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-left: 19.3%;
+    vertical-align: middle;
+    line-height: 110px;  
+    margin-top: 50px;
+    
 }
-header {
-  background-color: white;
-  width: 105%;
-  margin-top: -50px;
-  margin-left: -50px;
-  margin-right: -500px;
-  height: 150px;
-  display: flex;
-  overflow: hidden;
+header{
+    background-color: white;
+    width: 105%;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -500px;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+    
+
 }
-section {
-  vertical-align: center;
+section{
+    vertical-align: center;
+    
 }
-iframe {
-  width: 960px;
-  height: 400px;
-  border: none;
-  overflow: hidden;
+iframe{
+    width: 960px;
+    height: 400px;
+    border: none;
+    overflow: hidden;
 }
-#Message {
-  width: 900px;
-  height: 300px;
+#Message{
+    width: 900px;
+    height: 300px;
 }
 
-#submitButton {
-  background-color: #4aaaa5;
-  font-family: Arial, Helvetica, sans-serif;
-  vertical-align: center;
-  color: white;
-
-  box-shadow: none;
-  border-radius: 0px;
+#submitButton{
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center;
+    color: white;
+    
+        
+        
+    box-shadow: none;
+    border-radius: 0px;
+       
 }
-hr {
-  color: rgb(22, 22, 22);
-  background-color: darkgray;
+hr{
+    color: rgb(22, 22, 22);
+    background-color: darkgray;
 }
-footer {
-  overflow: hidden;
+footer{
+    overflow: hidden;
 }
